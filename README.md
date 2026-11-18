@@ -1,11 +1,11 @@
 # Financial Data Analysis — Executive Excel Dashboard
 
-## 📌 Project Overview
+## Project Overview
 This project transforms raw multi-year corporate financial records (`Financials.xlsx`) into an interactive, executive-ready Excel dashboard. Built as part of a **Big Data Analytics Capstone**, the objective is to evaluate revenue, profitability, and unit sales across market segments, geographic regions, product lines, and time periods to support strategic management decisions.
 
 ---
 
-## 🎯 Business Objectives
+## Business Objectives
 Management required visibility into key financial performance drivers across 2013 and 2014:
 1. **Segment Performance:** Profit and Gross Sales per market segment.
 2. **Geographic Performance:** Profit, Gross Sales, and Units Sold per country.
@@ -14,7 +14,7 @@ Management required visibility into key financial performance drivers across 201
 
 ---
 
-## 📊 Executive Summary & Key Metrics
+## Executive Summary & Key Metrics
 Across the 2013–2014 operating period (700 valid transactions), the business achieved the following top-line results:
 * **Total Gross Sales:** $127,931,598.50
 * **Total Net Sales (After Discounts):** $118,726,350.26
@@ -23,7 +23,7 @@ Across the 2013–2014 operating period (700 valid transactions), the business a
 
 ---
 
-## 🔍 Key Analytical Findings & Business Insights
+## Key Analytical Findings & Business Insights
 
 ### 1. Segment Profitability & Losses
 * **Finding:** The **Government** segment generated **$11.39M in profit** ($56.40M in Gross Sales), accounting for **67.4%** of total company profit. **Small Business** ranked second with **$4.14M in profit** ($45.94M in Gross Sales). Conversely, the **Enterprise** segment recorded a net loss of **-$614,545.60** despite generating **$21.07M in Gross Sales**.
@@ -50,7 +50,7 @@ Across the 2013–2014 operating period (700 valid transactions), the business a
 
 ---
 
-## 🛠️ Tools & Technical Implementation
+## Tools & Technical Implementation
 * **Microsoft Excel:**
   * **Data Cleaning & Validation:** Verified data types, isolated summary rows from transactional records, and validated numerical integrity across 700 transactional rows.
   * **PivotTables & PivotCharts:** Built dynamic multi-dimensional aggregations across Segments, Countries, Products, and Years.
@@ -58,6 +58,6 @@ Across the 2013–2014 operating period (700 valid transactions), the business a
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 * `Financials.xlsx` — Raw financial dataset and complete interactive PivotTable/PivotChart dashboard.
 * `README.md` — Project documentation, methodology, and executive business insights.
